@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre - GameStore</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    html, body { height: 100%; }
+    body { display: flex; flex-direction: column; }
+    main { flex: 1; }
+
+    .btn-custom:hover {
+      opacity: 0.9;
+      transform: scale(1.05);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .icon {
+      font-size: 50px;
+      color: #198754;
+      margin-bottom: 15px;
+    }
+        /* Footer */
+    footer { background: #212529; color: #fff; padding: 25px 0; }
+    footer a { color: #fff; text-decoration: none; margin: 0 10px; }
+    footer a:hover { color: #198754; }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">GameStore</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="sobre.html">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container my-5">
+      <h1 class="text-center mb-4">Sobre a GameStore</h1>
+      <p class="lead text-center mb-5">
+        A GameStore é a sua loja online de confiança para encontrar os jogos mais populares e lançamentos incríveis.
+      </p>
+
+      <!-- Missão, Valores e Visão -->
+      <div class="row text-center g-4">
+        <div class="col-md-4">
+          <div class="shadow p-4 rounded">
+            <div class="icon">🎯</div>
+            <h5>Missão</h5>
+            <p>Oferecer entretenimento de qualidade e preços justos para todos os gamers.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="shadow p-4 rounded">
+            <div class="icon">💎</div>
+            <h5>Valores</h5>
+            <p>Transparência, respeito ao cliente e paixão por jogos.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="shadow p-4 rounded">
+            <div class="icon">🚀</div>
+            <h5>Visão</h5>
+            <p>Ser a maior referência em lojas de games online no Brasil.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+   <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      &copy; 2025 GameStore | <a href="sobre.html">Sobre</a> | <a href="contato.html">Contato</a>
+      <div class="mt-2">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
